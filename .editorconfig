@@ -1,0 +1,38 @@
+root = true
+
+[*.cs]
+# Spacing & formatting
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+
+# StyleCop and Roslyn rules (lenient)
+
+# Naming
+dotnet_diagnostic.SA1300.severity = warning
+dotnet_diagnostic.SA1305.severity = warning
+dotnet_diagnostic.CA1707.severity = suggestion
+
+# Layout and formatting
+dotnet_diagnostic.IDE0055.severity = suggestion
+dotnet_diagnostic.SA1101.severity = suggestion
+
+# Method size & clarity
+dotnet_diagnostic.CA1502.severity = warning
+dotnet_diagnostic.CA1822.severity = suggestion
+
+# Parameters & arguments
+dotnet_diagnostic.CA1045.severity = warning
+dotnet_diagnostic.IDE0060.severity = suggestion
+
+# Error handling
+dotnet_diagnostic.CA1031.severity = warning
+dotnet_diagnostic.CA2200.severity = warning
+
+# Maintainability
+dotnet_diagnostic.CA1814.severity = suggestion
+dotnet_diagnostic.IDE0051.severity = suggestion
+
+# Comments & documentation
+dotnet_diagnostic.SA1600.severity = suggestion
+dotnet_diagnostic.SA1623.severity = suggestion

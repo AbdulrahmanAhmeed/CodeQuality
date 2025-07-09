@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "documentationRules": {
+      "companyName": "YourCompany",
+      "documentInternalElements": false,
+      "documentPrivateElements": false,
+      "documentExposedElements": true,
+      "xmlHeader": false
+    },
+    "namingRules": {
+      "allowCommonHungarianPrefixes": false,
+      "includeInferredTupleElementNames": true,
+      "tupleElementNameCasing": "pascalCase"
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace",
+      "systemUsingDirectivesFirst": true,
+      "blankLinesBetweenUsingGroups": "require"
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require",
+      "allowConsecutiveUsings": false,
+      "indentationSize": 4
+    },
+    "readabilityRules": {
+      "allowBuiltInTypeAliases": true
+    },
+    "maintainabilityRules": {
+      "topLevelTypesMustHaveDocumentation": true
+    }
+  }
+}
