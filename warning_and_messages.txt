@@ -1,0 +1,111 @@
+'public' members should come before 'private' members
+A closing brace should not be preceded by a blank line
+An opening brace should not be followed by a blank line
+Braces should not be omitted
+Code should not contain trailing whitespace
+Collection initialization can be simplified
+Collection initialization can be simplified
+Collection initialization can be simplified
+Element 'clsUserMgr' should begin with an uppercase letter
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Elements should be documented
+Field 'adminCount' should begin with upper-case letter
+Field 'admins' should begin with upper-case letter
+Field 'CONNECTION_STRING' should begin with lower-case letter
+Field 'CONNECTION_STRING' should not contain an underscore
+Field 'currentUser' should begin with upper-case letter
+Field 'debugMode' should begin with upper-case letter
+Field 'guests' should begin with upper-case letter
+Field 'isConnected' should begin with upper-case letter
+Field 'lastError' should begin with upper-case letter
+Field 'lastUpdate' should begin with upper-case letter
+Field 'MAX_USERS' should begin with lower-case letter
+Field 'MAX_USERS' should not contain an underscore
+Field 'userCount' should begin with upper-case letter
+Field 'users' should begin with upper-case letter
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+Field should be private
+File may not end with a newline character
+File may not end with a newline character
+File name should match first type name
+Make field readonly
+Make field readonly
+Namespace "CodeQ" does not match folder structure, expected "CodeQuality"
+Naming rule violation: These words must begin with upper case characters: clsUserMgr
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Prefix local calls with this
+Remove unused parameter 'age' if it is not part of a shipped public API
+Remove unused parameter 'args' if it is not part of a shipped public API
+Remove unused parameter 'email' if it is not part of a shipped public API
+Remove unused parameter 'logChanges' if it is not part of a shipped public API
+Remove unused parameter 'logLevel' if it is not part of a shipped public API
+Remove unused parameter 'newAge' if it is not part of a shipped public API
+Remove unused parameter 'newEmail' if it is not part of a shipped public API
+Remove unused parameter 'type' if it is not part of a shipped public API
+Single-line comments should not be followed by blank line
+Static members should appear before non-static members
+The field 'clsUserMgr.CONNECTION_STRING' is assigned but its value is never used
+The field 'clsUserMgr.MAX_USERS' is assigned but its value is never used
+The file header is missing or not located at the top of the file.
+The file header is missing or not located at the top of the file.
+Unnecessary assignment of a value to 'result'
+Use compound assignment
+Use string.Empty for empty strings
+Use string.Empty for empty strings
+Use string.Empty for empty strings
+Use string.Empty for empty strings
+Use string.Empty for empty strings
+Using directive should appear outside a namespace declaration
+Using directive should appear outside a namespace declaration
+Using directive should appear outside a namespace declaration
+XML comment analysis is disabled due to project configuration (https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0001.md)

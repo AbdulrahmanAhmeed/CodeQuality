@@ -1,32 +1,58 @@
 {
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
   "settings": {
     "documentationRules": {
-      "companyName": "YourCompany",
-      "documentInternalElements": false,
-      "documentPrivateElements": false,
+      "companyName": "Your Company",
+      "copyrightText": "Copyright (c) {companyName}. All rights reserved.",
       "documentExposedElements": true,
-      "xmlHeader": false
+      "documentInternalElements": true,
+      "documentPrivateElements": false,
+      "documentPrivateFields": false,
+      "fileNamingConvention": "metadata"
+    },
+    "orderingRules": {
+      "systemUsingDirectivesFirst": true,
+      "usingDirectivesPlacement": "outsideNamespace",
+      "elementOrder": [
+        "kind",
+        "accessibility",
+        "static",
+        "readonly"
+      ]
     },
     "namingRules": {
       "allowCommonHungarianPrefixes": false,
+      "allowedHungarianPrefixes": [],
       "includeInferredTupleElementNames": true,
-      "tupleElementNameCasing": "pascalCase"
-    },
-    "orderingRules": {
-      "usingDirectivesPlacement": "outsideNamespace",
-      "systemUsingDirectivesFirst": true,
-      "blankLinesBetweenUsingGroups": "require"
+      "requirePascalCaseForClassNames": true,
+      "requireCamelCaseForFieldNames": true,
+      "requireCamelCaseForVariableNames": true,
+      "requireCamelCaseForParameterNames": true,
+      "requirePascalCaseForMethodNames": true,
+      "requireCamelCaseForPropertyNames": false
     },
     "layoutRules": {
-      "newlineAtEndOfFile": "require",
-      "allowConsecutiveUsings": false,
+      "newlineAtEndOfFile": "require"
+    },
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class",
+        "interface",
+        "struct",
+        "enum",
+        "delegate"
+      ]
+    },
+    "indentationRules": {
+      "useTabs": false,
       "indentationSize": 4
     },
     "readabilityRules": {
       "allowBuiltInTypeAliases": true
     },
-    "maintainabilityRules": {
-      "topLevelTypesMustHaveDocumentation": true
+    "spacingRules": {
+      "preserveSingleLineBlocks": true,
+      "preserveSingleLineStatements": true
     }
   }
 }
